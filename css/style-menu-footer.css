@@ -33,6 +33,10 @@ nav ul li a{
     margin-left:80px
 }
 
+li a:hover{
+    border-bottom: 3px solid #37BBE4;
+}
+
 footer{
     background-color: #1874A4;
     width: 100vw;
