@@ -45,7 +45,7 @@ li a:hover{
 
 footer{
     background-color: #1874A4;
-    width: 100vh;
+    width: 100%;
     min-height: 230px;
     display: flex;
     justify-content: space-around;
