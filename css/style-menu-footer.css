@@ -22,6 +22,8 @@ body{
 nav{
     width: 100vw;
     height: 78px;
+    background-color: white;
+    position: fixed;
 }
 
 nav ul{
