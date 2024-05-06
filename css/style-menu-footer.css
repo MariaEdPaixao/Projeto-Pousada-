@@ -6,12 +6,16 @@
     font-family: "Montserrat", sans-serif;
     font-style: normal;
 }
+
 body{
   display: flex;
   flex-direction: column;
   height: 100vh;
 }
-
+main{
+    flex: 1 1 0;
+    border: 0;
+}
 
 #logo{
     margin-left: 60px;
@@ -24,6 +28,7 @@ nav{
     height: 78px;
     background-color: white;
     position: fixed;
+    z-index: 2;
 }
 
 nav ul{

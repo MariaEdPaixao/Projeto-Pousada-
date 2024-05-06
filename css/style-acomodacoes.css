@@ -1,0 +1,253 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: Normal;
+}
+/* colocando o nav no noto de tudo */
+nav{
+    z-index: 2;
+}
+/* destaque da pagina, para selecionar a data  */
+#escolha-data{
+    position: relative;
+}
+#fundo{
+    width: 100%;
+    max-height: 647px;
+}
+#texto, #data{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 80%;
+    z-index: 1;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+#texto h1{
+    font-size: 40px;
+}
+#texto p{
+    width: 90%;
+    font-size: 25px;
+}
+#data{
+    top: 58%;
+    background-color: #FFB700;
+    height: 60px;
+    max-width: 1187px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+#lugar{
+    background-color: white;
+    max-width: 40%; /*439px*/
+    border-radius: 5px;
+    height: 48px;
+    color: #3F3F3F;
+
+    display: flex;
+    align-items: center;
+}
+
+#lugar img{
+    margin-left: 15px;
+}
+#lugar p {
+    margin-left: 18px;
+    font-size: 24px;
+}
+
+#form-data{
+    background-color: white;
+    color: #3F3F3F;
+    max-width: 40%; 
+    height: 48px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+
+    font-size: 24px;
+    padding: 10px;
+}
+#id-data{
+    margin-left: 8px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#btn-pesquisar{
+    background-color: #37BBE4;
+    max-width: 20%; /*250px*/
+    height: 48px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#btn-pesquisar p input{
+    display: block;
+    margin: auto;
+   cursor: pointer;
+   font-weight: bold;
+   font-size: 24px;
+   border: none;
+   background-color: #37BBE4;
+   color: white;
+}
+
+/* detalhes, preços e fotos da pousada */
+/* categorias */
+#acomodacoes{
+    padding-top: 60px;
+    max-width: 80%;
+    margin: auto;
+}
+#acomodacoes h2{
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+#categorias{
+    display: flex;
+    max-width: 1047px;
+}
+#categorias div {
+    border: 3px solid #37BBE4;
+    color: #37BBE4;
+    text-align: center;
+    max-width: 33.3%;
+    height: 66px;
+
+    margin-bottom: 20px;
+}
+#categorias div p{
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+}
+#categorias #ctg1{
+    background-color: #37BBE4;
+    color: white;
+}
+#separacao{
+    margin: auto;
+    height: 0.5px;
+    background-color: #8B8B8B;
+}
+#detalhes_precos{
+    margin-top: 40px;
+}
+#detalhes_precos h1{
+    font-size: 30px;
+}
+#detalhes_precos p{
+    padding: 15px;
+    width: 100%;
+    font-size: 24px;
+    flex-wrap: nowrap;
+}
+
+/* acomodações */
+.categAcomodacoes{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.categAcomodacoes h2, #categAcomodacoesUltimo h2{
+    color: #37BBE4;
+    font-size: 30px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#categAcomodacoesUltimo{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.esquerdirei{
+    display: flex;
+}
+.bold{
+    margin-right: -40%;
+    font-weight: bold;
+}
+.bold2{
+    margin-right: -58%;
+    font-weight: bold;
+}
+.valor{
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    
+}
+.din{
+    color: #37BBE4;
+    font-weight: bold;
+    font-size: 24px;
+}
+#diaria{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#infos-quarto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-top: 5px;
+    max-width: 435px;
+    font-size: 18px;
+}
+
+#linha{
+    margin: auto;
+    padding-left: 10px;
+    width: 95%;
+    height: 0.5px;
+
+    background-color: #8B8B8B;
+}
+
+/* algumas modificações para uma página fluída entre 980px e 1200px */
+@media screen and (max-width:1162px){
+    #form-data, #lugar p, #btn-pesquisar p {
+        font-size: 20px;
+    }
+    #id-data{
+        font-size: 14px;
+    }
+    .bold{
+        margin-right: -30%;
+    }
+    .bold2{
+        margin-right: -48%;
+    }
+}
+
+@media screen and (max-width:1070px){
+    #form-data, #lugar p, #btn-pesquisar p {
+        font-size: 20px;
+    }
+    #id-data{
+        font-size: 14px;
+    }
+    .bold{
+        margin-right: -10%;
+    }
+    .bold2{
+        margin-right: -38%;
+    }
+}
