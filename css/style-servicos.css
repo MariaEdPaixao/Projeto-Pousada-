@@ -9,6 +9,9 @@
     font-size: 30px;
     margin-bottom: 15px;
     justify-content: center;
+    padding-left: 20px;
+    padding-top: 10%;
+    padding-bottom: 3%;
   }
   
   #linha1-itens {
@@ -24,12 +27,12 @@
     margin-top: 25px;
   }
   
-  .container img {
+  .container img{
     min-width: 20px;
     min-height: 20px;
   }
   
-  .container p {
+  .container p{
     margin-left: -50px;
   }
   

@@ -1,0 +1,30 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: Normal;
+}
+
+#titulo{
+    padding-top: 10%;
+    width: 40%;
+    text-align: center;
+    font-size: px;
+}
+
+#galeria {
+    column-count: 4;
+    width: 80%;
+    margin: auto;
+    column-gap: 10px;
+    padding-top: 5%;
+}
+.imgs{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+}
