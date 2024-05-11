@@ -1,0 +1,92 @@
+#fale-conosco{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 116px;
+    background-color: #C2E4EE;
+    max-width: 60%;
+    min-height: 560px;
+    padding: 10px;
+   
+}
+
+#fale-conosco h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+#linha{
+    margin: auto;
+    width:  90%;
+    height: 0.5px;
+    background-color: #8B8B8B;
+    margin-bottom: 50px;
+}
+
+.email, .nome, .desejo{
+    color: black;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    /* // background-color: blue; */
+    width: 100%;
+    /* // justify-content: space-between; */
+
+    label{
+        font-size: 30px;
+    }
+    input,textarea {
+        margin-top: 10px;
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+      
+        font-size: 20px;
+        min-height: 50px;
+    }
+}
+
+form{
+    margin-left: 41px;
+    width: 90%;
+}
+
+.feedback {
+   text-align: center;
+   padding-bottom: 50px;
+}
+.feedback label{
+    color: black;
+    font-size: 24px;
+}
+
+input[type="range"] {
+    margin-top: 30px;
+    accent-color: #0077FF;
+    box-shadow: rgba(0,0,0,0.1);
+    width: 40%;
+  }
+
+#container-range{
+    display: flex;
+    justify-content: center;
+}
+
+
+#enviar-msg {
+    border: none;
+    min-width:250px;
+    height: 48px;
+    background-color: #37BBE4;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 40px;
+    cursor: pointer;
+    
+}
+
