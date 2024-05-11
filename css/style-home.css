@@ -21,7 +21,7 @@
 .carrossel .fotos{
     width: 500%;
     animation-name: animacao; /*nome da animação */
-    animation-duration: 12s; /*tempo de duração da animação*/
+    animation-duration: 11s; /*tempo de duração da animação*/
     animation-iteration-count: infinite; /*numero de vezes que a animação deve repetir, ou seja, nesse caso, infinitamente*/
 }
 
