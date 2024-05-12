@@ -7,4 +7,5 @@ Figma: https://www.figma.com/design/QUcRBNeTJzPDqWXKyzRSLp/Projeto-Pousada?node-
 Github: https://github.com/MariaEdPaixao/Projeto-Pousada-
 
 
-Observação: o link da página principal (no menu) está na logo. Ótimas correções, prof :)
+Observação: o link da página principal (no menu) está na logo. E as fotos que foram pedidas na index estão em um carrossel.
+Ótimas correções, prof :)
